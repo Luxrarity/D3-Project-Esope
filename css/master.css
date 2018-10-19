@@ -1,0 +1,76 @@
+
+header {
+  background: 	#C0C0C0;
+  padding: 14px;
+text-align: center;
+
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  text-align: center;
+  color : #ffffff;
+  padding: 12px;
+  display: inline-block;
+  text-align: center;
+}
+.hero {
+  width: 100%;
+  background: rgb(08, 0, 0) url('images/esopo.jpg') center no-repeat;
+  color : #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+.hero h1 {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: 	#F0F8FF
+}
+
+.even {
+  background: #F5F5F5
+}
+.image-block {
+  max-width: 640px;
+  border: 12px solid #000;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+
+}
+
+footer {
+  min-height: 600px;
+  background: #000;
+  color : #fff;
+  text-align: center;
+}
