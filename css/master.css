@@ -18,11 +18,11 @@ header li {
 
 header a {
   text-decoration: none;
-  text-align: center;
+
   color : #ffffff;
   padding: 12px;
   display: inline-block;
-  text-align: center;
+
 }
 .hero {
   width: 100%;
@@ -34,19 +34,24 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 60px;
+  font-size: 40px;
 }
 .hero h1 {
   background-color: rgba(200, 200, 200, 0.5);
 }
 
 section {
-  min-height: 90vh;
-  padding: 42px;
+
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .odd {
-  background: 	#F0F8FF
+  background: 	#A9A9A9
+
 }
 
 .even {
@@ -56,21 +61,14 @@ section {
   max-width: 640px;
   border: 12px solid #000;
 }
+.illustration{
+  flex-basis: 480px;
+}
+.textcontent{
+  flex-basis: 480px
+}
 
 .image-block img {
   width : 100%;
 display:block;
-}
-
-figcaption {
-  font-family: 'Fahkwang', serif;
-  font-style: italic;
-
-}
-
-footer {
-  min-height: 600px;
-  background: #000;
-  color : #fff;
-  text-align: center;
 }
